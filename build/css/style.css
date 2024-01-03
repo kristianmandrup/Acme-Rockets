@@ -747,6 +747,10 @@ video {
   flex-direction: column-reverse;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1317,6 +1321,10 @@ video {
     width: 83.333333%;
   }
 
+  .sm\:w-2\/5 {
+    width: 40%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1364,6 +1372,12 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-2\/5 {
+    width: 40%;
   }
 }
 
